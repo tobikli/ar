@@ -1,0 +1,77 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global}
+    \entry{ar1}{book}{}
+      \name{author}{1}{}{%
+        {{hash=1e979dcae7bc3829d890adeedb6bf653}{%
+           family={Anett\bibnamedelima Mehler-Bicher},
+           familyi={A\bibinitperiod\bibinitdelim M\bibinithyphendelim B\bibinitperiod},
+           given={Lothar\bibnamedelima Steiger},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {De Gruyter Oldenbourg}%
+      }
+      \strng{namehash}{1e979dcae7bc3829d890adeedb6bf653}
+      \strng{fullhash}{1e979dcae7bc3829d890adeedb6bf653}
+      \strng{bibnamehash}{1e979dcae7bc3829d890adeedb6bf653}
+      \strng{authorbibnamehash}{1e979dcae7bc3829d890adeedb6bf653}
+      \strng{authornamehash}{1e979dcae7bc3829d890adeedb6bf653}
+      \strng{authorfullhash}{1e979dcae7bc3829d890adeedb6bf653}
+      \field{labelalpha}{Ane14}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9783110353853}
+      \field{title}{Augmented Reality: Theory and Practice}
+      \field{year}{2014}
+    \endentry
+    \entry{ar2}{book}{}
+      \name{author}{1}{}{%
+        {{hash=1d4006212e08c331ff5adfe211280300}{%
+           family={Horst\bibnamedelima Orsolits},
+           familyi={H\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={Maximilian\bibnamedelima Lackner},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Gabler Wiesbaden}%
+      }
+      \strng{namehash}{1d4006212e08c331ff5adfe211280300}
+      \strng{fullhash}{1d4006212e08c331ff5adfe211280300}
+      \strng{bibnamehash}{1d4006212e08c331ff5adfe211280300}
+      \strng{authorbibnamehash}{1d4006212e08c331ff5adfe211280300}
+      \strng{authornamehash}{1d4006212e08c331ff5adfe211280300}
+      \strng{authorfullhash}{1d4006212e08c331ff5adfe211280300}
+      \field{labelalpha}{Hor20}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9783658290092}
+      \field{title}{Virtual Reality und Augmented Reality in der Digitalen Produktion}
+      \field{year}{2020}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
