@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.3.7)  14 JUN 2024 16:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.3.7)  6 JUL 2024 12:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -271,33 +271,44 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/Users/tobias/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
- (/Users/tobias/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
- (/Users/tobias/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 94.
- (/Users/tobias/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [1{/Users/tobias/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}
+Underfull \hbox (badness 2343) in paragraph at lines 39--45
+[]\OT1/ptm/m/n/10 Dazu gibt es ver-schieden-ste In-no-va-tio-nen, die dieses
+ []
+
+
+Underfull \hbox (badness 2662) in paragraph at lines 39--45
+\OT1/ptm/m/n/10 sich vol-lkom-men neue An-wen-dungsm[]oglichkeiten , wie
+ []
+
+
+Underfull \hbox (badness 1721) in paragraph at lines 39--45
+\OT1/ptm/m/n/10 im medi-zinis-chen Bere-ich oder Unterhaltungs- und Un-
+ []
+
+[1{/Users/tobias/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}
 
 
 ]
-<fig1.png, id=13, 82.1469pt x 71.5473pt>
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 199.
-(pdftex.def)             Requested size: 82.14668pt x 71.5471pt.
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 210.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 119.
+ (/Users/tobias/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 119.
+ (/Users/tobias/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<img/fig2.jpg, id=9, 592.2125pt x 321.2pt>
+File: img/fig2.jpg Graphic file (type jpg)
+<use img/fig2.jpg>
+Package pdftex.def Info: img/fig2.jpg  used on input line 134.
+(pdftex.def)             Requested size: 236.8808pt x 128.47772pt.
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 145.
  (/Users/tobias/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 210.
- [2 <./fig1.png (PNG copy)>]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 145.
+
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -309,26 +320,24 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3
-
-] (ar_edu_klingenberg.aux)
+[2 <./img/fig2.jpg>] (ar_edu_klingenberg.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4273 strings out of 474457
- 69334 string characters out of 5733819
- 1945187 words of memory out of 5000000
- 26535 multiletter control sequences out of 15000+600000
- 603169 words of font info for 121 fonts, out of 8000000 for 9000
+ 4214 strings out of 474457
+ 68428 string characters out of 5733819
+ 1941187 words of memory out of 5000000
+ 26488 multiletter control sequences out of 15000+600000
+ 597269 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,654b,304s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/Users/tobias/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc}</Users/tobias/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/tobias/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/tobias/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Users/tobias/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/tobias/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/tobias/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Users/tobias/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/courier/ucrr8a.pfb></Users/tobias/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></Users/tobias/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmbi8a.pfb></Users/tobias/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></Users/tobias/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ar_edu_klingenberg.pdf (3 pages, 142899 bytes).
+ 57i,11n,65p,324b,304s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/Users/tobias/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc}</Users/tobias/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/tobias/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Users/tobias/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/tobias/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></Users/tobias/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmbi8a.pfb></Users/tobias/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></Users/tobias/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ar_edu_klingenberg.pdf (2 pages, 313323 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
