@@ -7,6 +7,8 @@
 \usepackage{graphicx}
 \usepackage{textcomp}
 \usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage[ngerman]{babel}
 
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
@@ -24,9 +26,14 @@ t.klingenberg@tum.de}
 \maketitle
 
 \begin{abstract}
+Innovation in der Bildung ist seit jeher eine erstrebenswerte, aber meißt nicht
+vorhandene oder durchsetzbare Thematik die in den letzten Jahren immer mehr 
+Aufmerksamkeit bekommen hat. Eine dieser Innovationen ist die Augmented Reality
+(Erweiterte Realität), welche tatsächlich sehr sinnvolle und bereichernde 
+Möglichekiten für die Bildung bieten kann.
 Das folgende Paper befasst sich mit der Entwicklung, 
 Anwendung und Analyse der Möglichkeiten von Augmented Reality 
-in all seinen Formen im Hinblick auf Bildung in den verschiedensten Bildungsstufen und Formen
+in der Bildung.
 \end{abstract}
 
 \section{Einleitung}
@@ -34,7 +41,7 @@ Augmented Reality (im Folgenden AR) ist eine Innovation, welche in den letzten
 Jahren immer mehr Akzeptanz und tatsächliche Anwendung in unserem täglichen
 Leben genießen konnte. Sie ist eine Technologie, welche es ermöglicht, digitale
 Informationen mit der echten physischen Welt zu überlagern und somit die persönliche 
-Sicht "erweitern". 
+Sicht ''erweitern''.
 
 Dazu gibt es verschiedenste Innovationen, die dieses Konzept 
 auf unterschiedlicher Weise ermöglichen. Durch diese Verschmelzung
@@ -58,24 +65,88 @@ Umgebungen angewedent werden kann \cite{b2}. TODO
 
 \section{Entwicklung}
 In den vergangen Jahren ließ sich eine immer höhrer Nachfrage für AR Technologien im Bildungsbereich
-feststellen. Vor allem in der Forschung ist dieser Trend sichtbar, in der tatsächlichen Anwendung
-Dies hat verschiedene Gründe. 
+feststellen. Vor allem in der Forschung ist dieser Trend sichtbar, in der tatsächlichen Anwendung ist die
+Adaption von diesen Technologien zwar vorhanden, jedoch noch immer nicht weitverbreitet \cite{b3}.
+
+In \ref{fig1} lässt sich die Entwicklung des Themas Bildung mit AR darstellen. Die Abbildung zeigt die Anzahl
+der veröffentlichten Paper in diesem Bereich von 2014 bis 2020 \cite{w2}. Ein klarer Sprung lässt sich in dem Jahr 2014 feststellen,
+in welchem die Google Glasses vorgestellt wurden. Diese ermöglichten eine tatsächliche konsumentenorientiertete 
+Möglichkeit, AR selbst umzusetzen. Dadurch wurde die Forschungsintensität in diesem Bereich verstärkt. 
+Ein ähnlicher Sprung lässt sich im Jahr 2020 erkennen, welcher wohlmöglich aufgrund der Covid-19 Pandemie einen
+Forschungsschwerpunkt in Richtung von Remote Unterricht als Grund hat.
+
+\begin{figure}[htbp]
+    \centerline{\includegraphics[scale=0.2]{img/entwicklung.png}}
+    \caption{Anzahl an Paper über AR in der Bildung}
+    \label{fig1}
+\end{figure}
 
 \section{AR-Tools und Plattformen}\label{AA}
-Define abbreviations and acronyms the first time they are used in the text, 
-even after they have been defined in the abstract. Abbreviations such as 
-IEEE, SI, MKS, CGS, ac, dc, and rms do not have to be defined. Do not use 
-abbreviations in the title or heads unless they are unavoidable.
+Damit AR in der Bildung funktionieren kann, müssen einige Kriterien erfüllt sein. Das Zusammenspiel
+zwischen Software und Hardware ist essenziel um eine immersive und interaktive Lernerfahrung
+zu ermöglichen. Moderne Software ermöglicht es, Laborexperimente oder geschichtliche Ausflüge
+zu veranstalten. Damit dies nahtlos in den Unterricht integriert werden kann, ist es wichtig, passende
+Hardware zu unterstützen.
+Im folgenden werden auf diese eingegangen und an einigen realen Beispielen diskutiert.
 
 \subsection{Software}
-Blabla
+Damit die Software in den Bildungssektor passt, müssen Kriterien wie eine einfache Bedienung,
+weite Verbreitung, kostengünstig und passenden Inhalt gewährleistet sein. Momentan
+vorhandene Beispiele sind unter anderem:
+\begin{itemize}
+    \item \href{https://sites.google.com/dublinschools.net/vr-ar/google-geo-tools/google-expeditions}{Google Expeditions}
+    \item \href{https://koerber-stiftung.de/projekte/eustory/teaching-and-learning-in-the-metaverse/}{Metaverse}
+    \item \href{https://www.4danatomy.com/}{Anatomy 4D}
+    \item \href{https://www.labster.com/}{Labster}
+    \item \href{https://www.cospaces.io/}{CoSpaces Edu}
+\end{itemize}
+Jedes dieser Beispiele fokussiert isch auf einen speziellen Fachbereich
+in der Bildung. Während Google Expeditions sich auf virtuelle sowie augmentierte
+Erlebnisse und Ausflüge fokussiert, passt sich unter anderem Anatomy 4D speziell
+auf die Lehre der Biologie im Bereich Anatomie von Mensch und Tier ab. 
+Labster ermöglicht es, teilweise Laborumgebungen zu augmentieren und so völlig neue
+Lernumgebungen zu schaffen. Mithilfe von CoSpaces Edu lässt sich unter anderem
+das Zusammenarbeiten trotz Distanz ermöglichen, indem andere Personen und Räume in 
+den eigenen augmentiert werden können. \cite{w1}
 
 \subsection{Hardware}
-Number equations consecutively. To make your 
-equations more compact, you may use the solidus (~/~), the exp function, or 
-appropriate exponents. Italicize Roman symbols for quantities and variables, 
-but not Greek symbols. Use a long dash rather than a hyphen for a minus 
+Damit die Hardware in den Bereich Bildung passt, muss auf einige Kriterien geachtet werden.
+Unter anderem sollte, vor allem in der Benutzung im primären Bildungssektor, auf eine günstige
+Hardwareoption geachtet werden. Diese sollte einfach zu bedienen sein und nich zu zerbrechlich sein.
+In der Schule sind für diese Anwendung vor allem bereits vorhandene Hardware zu betrachten, zum Beispiel
+LiDAR fähige Tablets sowie Smartphones und Computer die im Sinne der Schule bereits in das Curriculum
+integriert sind. Diese benötigen teils keine weiteren Anschaffungskosten und auch keine weitere Schulung und
+Weiterbildung der Lehrkräfte und Schüler.
 
+Im Hinblick auf Bildung in der Hochschule und Weiterbildung in der Industrie sind vor allem kostenintesivere,
+aber auch immersivere Hardwareoptionen möglich. Darunter gehöhren AR-Brillen und Headsets im Sinne von HUP (Head-up-Display),
+Optical see through und Visual see through. Desweiteren gibt es speziell auf Bildung angepasste Hardware wie der 
+\href{https://mergeedu.com/cube?cr=4646}{Merge Cube}, welcher es ermöglicht Schülern 3 dimensionale Objekte in der Hand zu
+halten und damit zu interagieren. \href{https://zspace.com/}{ZSpace} hingegen ermöglicht es, dem Anwender mithilfe eines Stylus 
+ähnlichen Stiftes, Objekte aus dem Monitor zu ziehen und dieses zu manipulieren.
+
+Zu den wichtigsten Beispielen gehören unter anderem:
+\begin{itemize}
+    \item \href{https://www.microsoft.com/de-de/hololens}{Microsoft HoloLens}
+    \item \href{https://www.meta.com/de/quest/quest-3/}{Meta Quest 3}
+    \item \href{https://www.apple.com/de/apple-vision-pro/}{Apple Vision Pro}
+\end{itemize}
+
+Während das Microsoft HoloLens auf Optical see through setzt, benutzen beide anderen Beispiel Video see through, durch welche
+zwar immersivere Erlebnisse gestaltbar sind, jedoch auch Nachteile durch Übelkeit möglich sind.
+
+
+\section{Virtuelle Räume}
+Gerade seit der Covid-19 Pandemie ist auch das Theme der virtuellen Klassenräume interessant geworden.
+Dabei ist zu Unterscheiden zwischen dem virtuelle Klassenraum vor Ort und dem von anderen Orten aus.
+Das Konzept besteht darin, dass entweder der Klassenraum an sich durch AR erweitert wird und somit der Unterricht
+immersiv berreichert wird und, dass der Klassenraum vollkommen in einen anderen Raum augmentiert wird und somit
+ein authentischer Unterricht von anderen Orten möglich ist.
+
+\subsection{vor Ort}
+
+
+\subsection{Remote}
 
 \section{Anwendungen}
 \textbf{The class file is designed for, but not limited to, six authors.} A 
@@ -113,22 +184,6 @@ below the figures; table heads should appear above the tables. Insert
 figures and tables after they are cited in the text. Use the abbreviation 
 ``Fig.~\ref{fig}'', even at the beginning of a sentence.
 
-\begin{table}[htbp]
-\caption{Table Type Styles}
-\begin{center}
-\begin{tabular}{|c|c|c|c|}
-\hline
-\textbf{Table}&\multicolumn{3}{|c|}{\textbf{Table Column Head}} \\
-\cline{2-4} 
-\textbf{Head} & \textbf{\textit{Table column subhead}}& \textbf{\textit{Subhead}}& \textbf{\textit{Subhead}} \\
-\hline
-copy& More table copy$^{\mathrm{a}}$& &  \\
-\hline
-\multicolumn{4}{l}{$^{\mathrm{a}}$Sample of a Table footnote.}
-\end{tabular}
-\label{tab1}
-\end{center}
-\end{table}
 
 \begin{figure}[htbp]
 \centerline{\includegraphics[scale=0.4]{img/fig2.jpg}}
@@ -176,13 +231,14 @@ citation first, followed by the original foreign-language citation \cite{b6}.
 
 \begin{thebibliography}{00}
 \bibitem{b1}  Dunleavy, M., Dede, C., and Mitchell, R. "Affordances and Limitations of Immersive Participatory Augmented Reality Simulations for Teaching and Learning". Journal of Science Education and Technology, 2009.
-\bibitem{b2} H. Kaufmann, ''Collaborative Augmented Reality in Education,'' Vienna University of Technology, 
-\bibitem{b3} Santos, M. E. C., Chen, A., Taketomi, T., Yamamoto, G., Miyazaki, J., and Kato, H, "Augmented Reality Learning Experiences: Survey of Prototype
+\bibitem{b2} Santos, M. E. C., Chen, A., Taketomi, T., Yamamoto, G., Miyazaki, J., and Kato, H, "Augmented Reality Learning Experiences: Survey of Prototype
 Design and Evaluation". IEEE Transactions on Learning Technologies, 2014.
-\bibitem{b4} A. Dengel, M. Z. Iqbal, S. Grafe and E. Mangina, ``A Review on Augmented Reality Authoring Toolkits for Education,'' Frontiers in Virtual Reality, 2022.
-\bibitem{b5} H. Çetin, ``A Systematic Review of Studies on Augmented Reality Based Applications in Primary Education,'' International Journal of Education and Literacy Studies, 2022.
-\bibitem{b6} M. Kesim and Y. Ozarslan, ``Augmented reality in education: current technologies and the potential for education,'' CY-ICER2012, Procedia - Social and Behavioral Sciences 47, 2012.
-\bibitem{b7} H. Wu, S. W. Lee, H. Chang and J. Liang, ''Current status, opportunities and challenges of augmented reality in education,'' Elsevier, Computers and Education, 2012.
+\bibitem{b3} Bacca, J., Baldiris, S., Fabregat, R., Graf, S., and Kinshuk, "Augmented Reality Trends in Education: A Systematic Review of Research and Applications". Educational Technology and Society, 2014.
+\bibitem{b4} J. Zhang, G. Li, Q. Huang, Q. Feng and H. Luo, „Augmented Reality in K–12 Education A Systematic Review and Meta-Analysis of the Literature from 2000 to 2020”, MDPI, 2022.
+\bibitem{b5} Akçayır, M., and Akçayır, G., "Advantages and challenges associated with augmented reality for education: A systematic review of the literature". Educational Research Review, 2017.
+\bibitem{b6} Chen, P., Liu, X., Cheng, W., and Huang, R. ,"A review of using augmented reality in education from 2011 to 2016". Innovations in Smart Learning, 2017.
+\bibitem[W1]{w1} \href{https://www.cospaces.io/tech-check-ar-with-smartphones}{https://www.cospaces.io/tech-check-ar-with-smartphones} letzter Zugriff 07.07.2024 16:32
+\bibitem[W2]{w2} \href{https://www.marketresearchfuture.com/reports/ar-vr-in-education-market-10834}{https://www.marketresearchfuture.com/reports/ar-vr-in-education-market-10834} letzter Zugriff 03.07.2024 20:38
 \end{thebibliography}
 \vspace{12pt}
 
