@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.23)  26 AUG 2024 21:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.23)  27 AUG 2024 21:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -410,54 +410,91 @@ Package hyperref Info: Link coloring OFF on input line 15.
 \@outlinefile=\write3
 \openout3 = `ar_edu_klingenberg.out'.
 
-
-Underfull \hbox (badness 2662) in paragraph at lines 46--52
-\OT1/ptm/m/n/10 sich voll-kom-men neue An-wen-dungsm[]oglichkeiten , wie
- []
-
-
-Underfull \hbox (badness 1721) in paragraph at lines 46--52
-\OT1/ptm/m/n/10 im me-di-zi-ni-schen Be-reich oder Unterhaltungs- und Un-
- []
-
-<img/entwicklung.png, id=73, 1139.25626pt x 613.29124pt>
+<img/entwicklung.png, id=85, 1139.25626pt x 613.29124pt>
 File: img/entwicklung.png Graphic file (type png)
 <use img/entwicklung.png>
-Package pdftex.def Info: img/entwicklung.png  used on input line 79.
+Package pdftex.def Info: img/entwicklung.png  used on input line 80.
 (pdftex.def)             Requested size: 227.84721pt x 122.65607pt.
+ [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
+
+
+ <./img/entwicklung.png>]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 97.
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 97.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
-
-
- <./img/entwicklung.png>]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 156.
+)
+<img/holo.png, id=115, 963.6pt x 642.4pt>
+File: img/holo.png Graphic file (type png)
+<use img/holo.png>
+Package pdftex.def Info: img/holo.png  used on input line 136.
+(pdftex.def)             Requested size: 192.71658pt x 128.47772pt.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 159.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-<img/sections.png, id=106, 540.93pt x 358.284pt>
+) [2 <./img/holo.png>]
+<img/sections.png, id=132, 540.93pt x 358.284pt>
 File: img/sections.png Graphic file (type png)
 <use img/sections.png>
 Package pdftex.def Info: img/sections.png  used on input line 175.
 (pdftex.def)             Requested size: 162.28024pt x 107.48602pt.
- [2]
-Underfull \hbox (badness 2753) in paragraph at lines 203--207
+
+Underfull \hbox (badness 1783) in paragraph at lines 199--202
+[]\OT1/ptm/m/n/10 Des Wei-te-ren k[]onnen An-wen-dun-gen in der Aug-men-
+ []
+
+
+Underfull \hbox (badness 2753) in paragraph at lines 199--202
 \OT1/ptm/m/n/10 ted Rea-li-ty f[]ur Pro-jekt-ar-bei-ten ge-nutzt wer-den, in de-
  []
 
-<img/geometrie.png, id=119, 275.0275pt x 164.615pt>
+<img/geometrie.png, id=138, 275.0275pt x 164.615pt>
 File: img/geometrie.png Graphic file (type png)
 <use img/geometrie.png>
-Package pdftex.def Info: img/geometrie.png  used on input line 217.
+Package pdftex.def Info: img/geometrie.png  used on input line 209.
 (pdftex.def)             Requested size: 192.51793pt x 115.2297pt.
 [3 <./img/sections.png> <./img/geometrie.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
+<img/ingen.png, id=156, 907.39pt x 366.36874pt>
+File: img/ingen.png Graphic file (type png)
+<use img/ingen.png>
+Package pdftex.def Info: img/ingen.png  used on input line 227.
+(pdftex.def)             Requested size: 226.84694pt x 91.59195pt.
+<img/bone.png, id=162, 539.01375pt x 108.405pt>
+File: img/bone.png Graphic file (type png)
+<use img/bone.png>
+Package pdftex.def Info: img/bone.png  used on input line 243.
+(pdftex.def)             Requested size: 242.55394pt x 48.78178pt.
+
+Underfull \hbox (badness 2680) in paragraph at lines 252--255
+ \OT1/ptm/m/it/10 2) Fall-stu-die: [][][] \OT1/ptm/m/n/10 Auf-grund der durch COVID-19 ein-ge-
+ []
+
+<img/med.png, id=166, 963.6pt x 642.4pt>
+File: img/med.png Graphic file (type png)
+<use img/med.png>
+Package pdftex.def Info: img/med.png  used on input line 257.
+(pdftex.def)             Requested size: 192.71658pt x 128.47772pt.
+[4 <./img/ingen.png> <./img/bone.png> <./img/med.png>]
+Underfull \hbox (badness 1735) in paragraph at lines 275--277
+[]\OT1/ptm/m/n/10 Interdisziplin[]are Ler-num-ge-bun-gen erm[]oglichen es, ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
 [][]\OT1/ptm/m/n/8 https://www.marketresearchfuture.com/reports/ar-vr-in-education-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
+[][]\OT1/ptm/m/n/8 https://news.microsoft.com/de-de/hololens-hologramme-in-lehre-und-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
+[][]\OT1/ptm/m/n/8 https://www.imperial.ac.uk/news/197617/mixed-reality-headsets-
  []
 
 
@@ -471,29 +508,27 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4
-
-] (./ar_edu_klingenberg.aux)
+[5] (./ar_edu_klingenberg.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `ar_edu_klingenberg.out' has not changed.
-(rerunfilecheck)             Checksum: EFB22FC83DC9E2CF9055DD562BFC486C;1667.
+(rerunfilecheck)             Checksum: E3132B604D7F53FCA2F0E98AE59D2A77;1968.
  ) 
 Here is how much of TeX's memory you used:
- 12357 strings out of 474116
- 195350 string characters out of 5743682
+ 12407 strings out of 474116
+ 196035 string characters out of 5743682
  1950187 words of memory out of 5000000
- 34524 multiletter control sequences out of 15000+600000
+ 34560 multiletter control sequences out of 15000+600000
  589449 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,348b,601s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,79p,678b,458s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ar_edu_klingenberg.pdf (4 pages, 949445 bytes).
+Output written on ar_edu_klingenberg.pdf (5 pages, 6020394 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
- 152 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
- 144 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 235 PDF objects out of 1000 (max. 8388607)
+ 203 compressed objects within 3 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 188 words of extra memory for PDF output out of 10000 (max. 10000000)
 
