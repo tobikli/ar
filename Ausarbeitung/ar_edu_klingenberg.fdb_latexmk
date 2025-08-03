@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1724786698.50142 "/Users/tobias/Desktop/TUM/Sem_4/AR/ARProject/AR/Ausarbeitung/ar_edu_klingenberg.tex" "ar_edu_klingenberg.pdf" "ar_edu_klingenberg" 1724786700.01047 0
-  "/Users/tobias/Desktop/TUM/Sem_4/AR/ARProject/AR/Ausarbeitung/ar_edu_klingenberg.tex" 1724786698.27424 27020 3301ef54b87636f1c1cedc9e1dbbf4de ""
+["pdflatex"] 1724864247.36195 "/Users/tobias/Desktop/TUM/Sem_4/AR/ARProject/AR/Ausarbeitung/ar_edu_klingenberg.tex" "ar_edu_klingenberg.pdf" "ar_edu_klingenberg" 1724864248.95239 0
+  "/Users/tobias/Desktop/TUM/Sem_4/AR/ARProject/AR/Ausarbeitung/ar_edu_klingenberg.tex" 1724864248.09929 31095 6b8e7a5ac7c7805c9c1ff0245b6b7469 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -99,9 +99,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1724446999.85395 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1724446934 8221428 8f36f7e10d1bc39cb585941557c1de66 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "ar_edu_klingenberg.aux" 1724786699.95536 4772 4d99006990d44578f5f01e61360e9667 "pdflatex"
-  "ar_edu_klingenberg.out" 1724786699.9563 1968 e3132b604d7f53fca2f0e98ae59d2a77 "pdflatex"
-  "ar_edu_klingenberg.tex" 1724786698.27424 27020 3301ef54b87636f1c1cedc9e1dbbf4de ""
+  "ar_edu_klingenberg.aux" 1724864248.89373 5152 f2d47cbc5ab9ca45dc4baf86d9f4b07f "pdflatex"
+  "ar_edu_klingenberg.out" 1724864248.89523 2091 861db6c6f44a4d9f5755abdd65f1f38b "pdflatex"
+  "ar_edu_klingenberg.tex" 1724864248.09929 31095 6b8e7a5ac7c7805c9c1ff0245b6b7469 ""
   "img/bone.png" 1724706503.71735 454171 6c19b009f2eabfa8a45650fee5a74d49 ""
   "img/entwicklung.png" 1720365402.20397 335631 7f8a9a59614698e28c4d8fe9b103870b ""
   "img/geometrie.png" 1724696060.60222 310023 eb1df392d5c48ce5e5c226aec9b26aaa ""
